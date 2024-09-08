@@ -12,6 +12,7 @@ git clone https://github.com/thesofproject/sof-bin /tmp/sof-bin
 (
     cd /tmp/sof-bin || exit 1
     ./install.sh v2.1.x/v2.1.1
+    #./install.sh v2.6.x/v2.6.1 # should I use newer versions?
 );
 
 echo "--- Installing custom ESSX8336 topologies"
